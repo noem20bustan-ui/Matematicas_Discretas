@@ -151,18 +151,17 @@ Se definen como *“una aplicación veritativa que representa todas las posibles
 
 ---
 
-# 📂   Tareas de la Unidad
+# 📂 Tareas de la Unidad
 
+## Tabla Resumen de Documentos – Portafolio Matemáticas Discretas
 
-| Nº | Descripción del deber              | Enlace al archivo          | Estado        |
-| -- | ---------------------------------- | -------------------------- | ------------- |
-| 1  | Identificación de proposiciones    | [Abrir archivo](link_aquí) | ✔️ Completado |
-| 2  | Tabla de verdad de 3 proposiciones | [Abrir archivo](link_aquí) | ✔️ Completado |
-| 3  | Operadores lógicos aplicados       | *(Sin enlace)*             | ⏳ Pendiente   |
-| 4  | Problemas de implicaciones         | *(Sin enlace)*             | ⏳ Pendiente   |
-| 5  | Ejercicios extra de práctica       | *(Sin enlace)*             | ⏳ Pendiente   |
+| **Documento** | **Tema Principal** | **Contenido Resumido** | **Enfoque / Aportes** |
+|---------------|--------------------|--------------------------|-------------------------|
+| **ACD1: Lógica proposicional, conectores y tablas de verdad** | Fundamentos de lógica proposicional | • Definición de lógica y análisis de validez de razonamientos. <br>• Proposiciones vs. no proposiciones y su representación simbólica (p, q, r). <br>• Conectores lógicos: negación, conjunción, disyunción, condicional, bicondicional. <br>• Construcción de tablas de verdad. <br>• Clasificación: tautologías, contradicciones, contingencias. <br>• Relación entre lógica y programación. | Documento introductorio, ordenado y didáctico. Presenta conceptos base con ejemplos y tablas de verdad. Útil para comprender la estructura de razonamientos y su aplicación en computación. |
+| **ACD2: Implicaciones, equivalencias y razonamiento deductivo** | Leyes lógicas y reglas de inferencia | • Leyes proposicionales: doble negación, idempotencia, conmutativa, asociativa, distributiva, De Morgan, condicional y bicondicional. <br>• Reglas de inferencia: Modus Ponens, Modus Tollens, Silogismo Hipotético, Adición, Simplificación, Ley de la Unión. <br>• Ejemplos simbólicos y prácticos. | Guía académica sintética y clara. Permite comprender cómo se transforman expresiones lógicas y cómo se obtienen conclusiones válidas mediante reglas formales. |
+| **AA: Lectura y ejercicios** | Aplicación de leyes lógicas e inferencia | **Ejercicio 1:** <br>• Demostración lógica paso a paso usando premisas y reglas (De Morgan, Modus Tollendo Ponens, doble negación, etc.). <br>• Conclusión final: S. <br><br> **Ejercicio 2:** <br>• Traducción de argumentos del lenguaje natural a proposiciones. <br>• Deducción de la conclusión “los ingenieros han cometido un error”. | Fortalece la capacidad de aplicar reglas de inferencia en situaciones formales y cotidianas. Enfatiza el razonamiento estructurado y la justificación de cada paso. |
+| **APE: Resolución de ejercicios** | Práctica general de lógica proposicional | • Definiciones básicas: proposición, conectores y tablas de verdad. <br>• Clasificación de oraciones como proposiciones o no proposiciones. <br>• Elaboración de negaciones. <br>• Tablas de verdad y clasificación en tautologías, contradicciones o contingencias. <br>• Evaluación de proposiciones con valores dados. <br>• Traducción entre lenguaje natural y simbólico. | Material práctico completo que refuerza teoría y desarrolla habilidades de análisis, interpretación y simbolización lógica. |
 
----
 
 
 ## 💭 Reflexión de la Unidad 1
@@ -178,6 +177,7 @@ Sin embargo, aún debo mejorar mi **rapidez** y **seguridad** al construir tabla
 ---
 
 > 📘 *Portafolio Académico — Matemáticas Discretas — Universidad Nacional de Loja*
+
 
 
 
