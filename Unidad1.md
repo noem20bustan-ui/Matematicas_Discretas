@@ -1,4 +1,4 @@
-# 🧩 Unidad 1 — Lógica Matemática  
+# 🧩 Unidad 1 — Lógica Matemática
 
 ---
 
@@ -7,21 +7,32 @@
 
 La **lógica** es la rama de las matemáticas y la filosofía que estudia los **métodos y principios del razonamiento válido**. Su propósito es determinar cuándo una conclusión se deduce correctamente de un conjunto de premisas.
 
+Además, desde una perspectiva formal: la lógica es *“la ciencia que se encarga del estudio de los componentes, las formas y métodos del razonamiento válido… usada para diferenciar los razonamientos correctos de los incorrectos”*. Esta definición resalta que la lógica analiza la **estructura del pensamiento**, sin depender del significado de las proposiciones.
+
+La **Lógica Matemática** se entiende como *“el estudio de la lógica con métodos matemáticos”*, lo cual permite representar razonamientos mediante símbolos, leyes y tablas que garantizan conclusiones válidas.
+
 ---
 
 ### 📌 Conceptos Fundamentales
 
-#### ✔️ Enunciado o Proposición  
-Una **proposición** es una afirmación que puede ser **verdadera (V)** o **falsa (F)**, pero nunca ambas.
+#### ✔️ Enunciado o Proposición
+
+Una **proposición** es una afirmación que puede ser **verdadera (V)** o **falsa (F)**, pero nunca ambas. También es descrita como *“una expresión lingüística, con un sentido aseverativo determinado, que es o verdadera o falsa”*. Para reconocer una proposición, debe cumplir:
+
+* Ser una estructura lingüística.
+* Tener sentido aseverativo.
+* Tener valor de verdad definido.
 
 **Ejemplos:**
-- "2 es un número par." → **V**
-- "Quito es la capital de Perú." → **F**
+
+* "2 es un número par." → **V**
+* "Quito es la capital de Perú." → **F**
 
 **NO son proposiciones:**
-- Preguntas: *¿Qué hora es?*  
-- Órdenes: *Cierra la puerta.*  
-- Expresiones ambiguas: *Hace frío.*  
+
+* Preguntas: *¿Qué hora es?*
+* Órdenes: *Cierra la puerta.*
+* Expresiones ambiguas: *Hace frío.*
 
 </details>
 
@@ -30,44 +41,53 @@ Una **proposición** es una afirmación que puede ser **verdadera (V)** o **fals
 <details>
 <summary><h2>🔗 2. Proposiciones y Operadores Lógicos</h2></summary>
 
-Los operadores lógicos permiten formar **proposiciones compuestas**.
+Las proposiciones se representan con letras como p, q, r y sirven de base para crear expresiones lógicas más complejas usando operadores lógicos. Cada operador define cómo se combinan los valores de verdad.
 
 ---
 
 ### ✔️ 2.1 Negación (¬p)
 
-Invierte el valor de verdad:  
-- p verdadera → ¬p falsa  
-- p falsa → ¬p verdadera  
+La negación es una operación unaria que invierte el valor de verdad:
+
+* p verdadera → ¬p falsa
+* p falsa → ¬p verdadera
+
+Esta operación cumple: *(V) = F y (F) = V*.
 
 ---
 
 ### ✔️ 2.2 Conjunción (p ∧ q)
 
+La conjunción expresa **“y”**. Es verdadera solo si ambas proposiciones lo son.
+
 | p | q | p ∧ q |
-|---|---|-------|
+| - | - | ----- |
 | V | V | **V** |
-| V | F | F |
-| F | V | F |
-| F | F | F |
+| V | F | F     |
+| F | V | F     |
+| F | F | F     |
 
 ---
 
 ### ✔️ 2.3 Disyunción (p ∨ q)
 
+La disyunción es un **or inclusivo**: es verdadera si al menos una de las proposiciones lo es.
+
 | p | q | p ∨ q |
-|---|---|-------|
+| - | - | ----- |
 | V | V | **V** |
 | V | F | **V** |
 | F | V | **V** |
-| F | F | F |
+| F | F | F     |
 
 ---
 
 ### ✔️ 2.4 Implicación (p → q)
 
+La implicación funciona como una **promesa lógica**: solo es falsa cuando p es verdadera y q es falsa.
+
 | p | q | p → q |
-|---|---|--------|
+| - | - | ----- |
 | V | V | **V** |
 | V | F | **F** |
 | F | V | **V** |
@@ -77,11 +97,13 @@ Invierte el valor de verdad:
 
 ### ✔️ 2.5 Doble Implicación (p ↔ q)
 
+El bicondicional expresa equivalencia lógica: es verdadero si ambos tienen el mismo valor de verdad.
+
 | p | q | p ↔ q |
-|---|---|--------|
+| - | - | ----- |
 | V | V | **V** |
-| V | F | F |
-| F | V | F |
+| V | F | F     |
+| F | V | F     |
 | F | F | **V** |
 
 </details>
@@ -91,35 +113,39 @@ Invierte el valor de verdad:
 <details>
 <summary><h2>📊 3. Tablas de Verdad</h2></summary>
 
-Las **tablas de verdad** permiten analizar todas las combinaciones posibles de una proposición compuesta.
+Las **tablas de verdad** permiten analizar sistemáticamente todas las combinaciones posibles del valor de verdad de una proposición compuesta.
+
+Se definen como *“una aplicación veritativa que representa todas las posibles combinaciones del dominio y su correspondiente valor en {V, F}”*. Estas tablas permiten determinar si una proposición es tautología, contradicción o contingencia.
 
 ---
 
-### ✔️ Ejemplo 1  
+### ✔️ Ejemplo 1
+
 #### (p ∧ q) → ¬r
 
 | p | q | r | p ∧ q | ¬r | (p ∧ q) → ¬r |
-|---|---|---|-------|-----|----------------|
-| V | V | V | V | F | F |
-| V | V | F | V | V | **V** |
-| V | F | V | F | F | **V** |
-| V | F | F | F | V | **V** |
-| F | V | V | F | F | **V** |
-| F | V | F | F | V | **V** |
-| F | F | V | F | F | **V** |
-| F | F | F | F | V | **V** |
+| - | - | - | ----- | -- | ------------ |
+| V | V | V | V     | F  | F            |
+| V | V | F | V     | V  | **V**        |
+| V | F | V | F     | F  | **V**        |
+| V | F | F | F     | V  | **V**        |
+| F | V | V | F     | F  | **V**        |
+| F | V | F | F     | V  | **V**        |
+| F | F | V | F     | F  | **V**        |
+| F | F | F | F     | V  | **V**        |
 
 ---
 
-### ✔️ Ejemplo 2  
+### ✔️ Ejemplo 2
+
 #### ¬p ∨ (q → p)
 
 | p | q | ¬p | q → p | ¬p ∨ (q → p) |
-|---|---|----|--------|----------------|
-| V | V | F | V | **V** |
-| V | F | F | V | **V** |
-| F | V | V | F | **V** |
-| F | F | V | V | **V** |
+| - | - | -- | ----- | ------------ |
+| V | V | F  | V     | **V**        |
+| V | F | F  | V     | **V**        |
+| F | V | V  | F     | **V**        |
+| F | F | V  | V     | **V**        |
 
 </details>
 
@@ -131,14 +157,13 @@ A continuación tienes una **tabla editable**, organizada, estética y perfecta 
 
 ### 📋 **Registro de Tareas**
 
-| Nº | Descripción del deber | Enlace al archivo | Estado |
-|----|------------------------|-------------------|--------|
-| 1 | Identificación de proposiciones | [Abrir archivo](link_aquí) | ✔️ Completado |
-| 2 | Tabla de verdad de 3 proposiciones | [Abrir archivo](link_aquí) | ✔️ Completado |
-| 3 | Operadores lógicos aplicados | *(Sin enlace)* | ⏳ Pendiente |
-| 4 | Problemas de implicaciones | *(Sin enlace)* | ⏳ Pendiente |
-| 5 | Ejercicios extra de práctica | *(Sin enlace)* | ⏳ Pendiente |
-
+| Nº | Descripción del deber              | Enlace al archivo          | Estado        |
+| -- | ---------------------------------- | -------------------------- | ------------- |
+| 1  | Identificación de proposiciones    | [Abrir archivo](link_aquí) | ✔️ Completado |
+| 2  | Tabla de verdad de 3 proposiciones | [Abrir archivo](link_aquí) | ✔️ Completado |
+| 3  | Operadores lógicos aplicados       | *(Sin enlace)*             | ⏳ Pendiente   |
+| 4  | Problemas de implicaciones         | *(Sin enlace)*             | ⏳ Pendiente   |
+| 5  | Ejercicios extra de práctica       | *(Sin enlace)*             | ⏳ Pendiente   |
 
 ---
 
@@ -146,11 +171,11 @@ A continuación tienes una **tabla editable**, organizada, estética y perfecta 
 
 En esta unidad se estudiaron los fundamentos del razonamiento lógico:
 
-- Qué es una proposición  
-- Cómo funcionan los conectores lógicos  
-- Cómo se construyen y analizan tablas de verdad  
+* Qué es una proposición
+* Cómo funcionan los conectores lógicos
+* Cómo se construyen y analizan tablas de verdad
 
-Estos conocimientos son esenciales para avanzar a temas como:  
+Estos conocimientos son esenciales para avanzar a temas como:
 **reglas de inferencia**, **equivalencias lógicas**, **álgebra booleana**, **grafos** y **algoritmos**.
 
 ---
