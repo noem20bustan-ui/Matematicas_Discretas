@@ -1,28 +1,34 @@
-# 🧩 Unidad 1 — Lógica Matemática
+# 🧩 Unidad 1 — Lógica Matemática  
 
 ---
 
-## 1. 📘 Definiciones Básicas de Lógica
+<details>
+<summary><h2>📘 1. Definiciones Básicas de Lógica</h2></summary>
 
-La **lógica** es la rama de las matemáticas y la filosofía que estudia los **métodos y principios del razonamiento válido**. Su objetivo es determinar cuándo una conclusión se deduce correctamente de un conjunto de premisas.
+La **lógica** es la rama de las matemáticas y la filosofía que estudia los **métodos y principios del razonamiento válido**. Su propósito es determinar cuándo una conclusión se deduce correctamente de un conjunto de premisas.
+
+---
 
 ### 📌 Conceptos Fundamentales
 
 #### ✔️ Enunciado o Proposición  
-Un **enunciado** o **proposición** es una oración que puede ser **verdadera (V)** o **falsa (F)**, pero no ambas al mismo tiempo.
+Una **proposición** es una afirmación que puede ser **verdadera (V)** o **falsa (F)**, pero nunca ambas.
 
 **Ejemplos:**
-- "2 es un número par." → **V**  
+- "2 es un número par." → **V**
 - "Quito es la capital de Perú." → **F**
 
-**No son proposiciones:**
-- Preguntas: "¿Qué hora es?"  
-- Órdenes: "Cierra la puerta."  
-- Expresiones subjetivas: "Hace frío."
+**NO son proposiciones:**
+- Preguntas: *¿Qué hora es?*  
+- Órdenes: *Cierra la puerta.*  
+- Expresiones ambiguas: *Hace frío.*  
+
+</details>
 
 ---
 
-## 2. 🔗 Proposiciones y Operadores Lógicos
+<details>
+<summary><h2>🔗 2. Proposiciones y Operadores Lógicos</h2></summary>
 
 Los operadores lógicos permiten formar **proposiciones compuestas**.
 
@@ -31,14 +37,12 @@ Los operadores lógicos permiten formar **proposiciones compuestas**.
 ### ✔️ 2.1 Negación (¬p)
 
 Invierte el valor de verdad:  
-- Si p es verdadera → ¬p es falsa  
-- Si p es falsa → ¬p es verdadera
+- p verdadera → ¬p falsa  
+- p falsa → ¬p verdadera  
 
 ---
 
 ### ✔️ 2.2 Conjunción (p ∧ q)
-
-Es verdadera **solo cuando ambas proposiciones son verdaderas**.
 
 | p | q | p ∧ q |
 |---|---|-------|
@@ -51,8 +55,6 @@ Es verdadera **solo cuando ambas proposiciones son verdaderas**.
 
 ### ✔️ 2.3 Disyunción (p ∨ q)
 
-Es verdadera cuando **al menos una** de las proposiciones es verdadera.
-
 | p | q | p ∨ q |
 |---|---|-------|
 | V | V | **V** |
@@ -63,8 +65,6 @@ Es verdadera cuando **al menos una** de las proposiciones es verdadera.
 ---
 
 ### ✔️ 2.4 Implicación (p → q)
-
-Solo es falsa cuando **p es verdadera** y **q es falsa**.
 
 | p | q | p → q |
 |---|---|--------|
@@ -77,8 +77,6 @@ Solo es falsa cuando **p es verdadera** y **q es falsa**.
 
 ### ✔️ 2.5 Doble Implicación (p ↔ q)
 
-Es verdadera cuando **p y q tienen el mismo valor de verdad**.
-
 | p | q | p ↔ q |
 |---|---|--------|
 | V | V | **V** |
@@ -86,51 +84,78 @@ Es verdadera cuando **p y q tienen el mismo valor de verdad**.
 | F | V | F |
 | F | F | **V** |
 
----
-
-## 3. 📊 Tablas de Verdad
-
-Las **tablas de verdad** muestran los valores posibles de una proposición compuesta evaluando todas las combinaciones de sus proposiciones simples.
+</details>
 
 ---
 
-### ✔️ Ejemplo 1: Tabla de verdad de (p ∧ q) → ¬r
+<details>
+<summary><h2>📊 3. Tablas de Verdad</h2></summary>
+
+Las **tablas de verdad** permiten analizar todas las combinaciones posibles de una proposición compuesta.
+
+---
+
+### ✔️ Ejemplo 1  
+#### (p ∧ q) → ¬r
 
 | p | q | r | p ∧ q | ¬r | (p ∧ q) → ¬r |
 |---|---|---|-------|-----|----------------|
-| V | V | V | V     | F   | F |
-| V | V | F | V     | V   | **V** |
-| V | F | V | F     | F   | **V** |
-| V | F | F | F     | V   | **V** |
-| F | V | V | F     | F   | **V** |
-| F | V | F | F     | V   | **V** |
-| F | F | V | F     | F   | **V** |
-| F | F | F | F     | V   | **V** |
+| V | V | V | V | F | F |
+| V | V | F | V | V | **V** |
+| V | F | V | F | F | **V** |
+| V | F | F | F | V | **V** |
+| F | V | V | F | F | **V** |
+| F | V | F | F | V | **V** |
+| F | F | V | F | F | **V** |
+| F | F | F | F | V | **V** |
 
 ---
 
-### ✔️ Ejemplo 2: Tabla de verdad de ¬p ∨ (q → p)
+### ✔️ Ejemplo 2  
+#### ¬p ∨ (q → p)
 
 | p | q | ¬p | q → p | ¬p ∨ (q → p) |
 |---|---|----|--------|----------------|
-| V | V | F  | V      | **V** |
-| V | F | F  | V      | **V** |
-| F | V | V  | F      | **V** |
-| F | F | V  | V      | **V** |
+| V | V | F | V | **V** |
+| V | F | F | V | **V** |
+| F | V | V | F | **V** |
+| F | F | V | V | **V** |
+
+</details>
 
 ---
 
-## 📝 Conclusión de la Unidad
+# 📂 📝 **Espacio para Tareas de la Unidad**
+
+A continuación tienes una **tabla editable**, organizada, estética y perfecta para ir registrando tus deberes.
+
+### 📋 **Registro de Tareas**
+
+| Nº | Descripción del deber | Enlace al archivo | Estado |
+|----|------------------------|-------------------|--------|
+| 1 | Identificación de proposiciones | [Abrir archivo](link_aquí) | ✔️ Completado |
+| 2 | Tabla de verdad de 3 proposiciones | [Abrir archivo](link_aquí) | ✔️ Completado |
+| 3 | Operadores lógicos aplicados | *(Sin enlace)* | ⏳ Pendiente |
+| 4 | Problemas de implicaciones | *(Sin enlace)* | ⏳ Pendiente |
+| 5 | Ejercicios extra de práctica | *(Sin enlace)* | ⏳ Pendiente |
+
+
+---
+
+# 📝 **Conclusión de la Unidad**
 
 En esta unidad se estudiaron los fundamentos del razonamiento lógico:
 
 - Qué es una proposición  
-- Cómo operan los conectores lógicos  
+- Cómo funcionan los conectores lógicos  
 - Cómo se construyen y analizan tablas de verdad  
 
-Estos conceptos son esenciales para temas posteriores como **reglas de inferencia, equivalencias lógicas, álgebra booleana, grafos y algoritmos**.
+Estos conocimientos son esenciales para avanzar a temas como:  
+**reglas de inferencia**, **equivalencias lógicas**, **álgebra booleana**, **grafos** y **algoritmos**.
 
 ---
 
-> 📘 *Parte del Portafolio Académico — Matemáticas Discretas — Universidad Nacional de Loja*
+> 📘 *Portafolio Académico — Matemáticas Discretas — Universidad Nacional de Loja*
+
+
 
