@@ -82,7 +82,7 @@ Este portafolio recopila actividades, ejercicios, resúmenes y material desarrol
 ---
 
 ## 📚 Referencias
-📄 [Ir a Referencias de la Unidad 1](referencias/Referencias%20de%20la%20unidad%201.docx)
+📄 [Ir a Referencias de la Unidad 1 (PDF)](referencias/Referencias%20de%20la%20unidad%201.pdf)
 
 ---
 
