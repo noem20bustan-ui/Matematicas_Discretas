@@ -81,6 +81,11 @@ Este portafolio recopila actividades, ejercicios, resúmenes y material desarrol
 
 ---
 
+## 📚 Referencias
+📄 [Ir a Referencias de la Unidad 1](referencias/Referencias%20de%20la%20unidad%201.docx)
+
+---
+
 ## 🤖 <span style="color:#5EDFFF;"><b>Uso de la IA Generativa</b></span>
 
 Este portafolio fue realizado con apoyo de **ChatGPT** para mejorar la redacción, estructura y presentación visual.
