@@ -2,39 +2,43 @@
 
 ---
 
-# 1. DEFINICIONES BÁSICAS DE LÓGICA
+## 1. 📘 Definiciones Básicas de Lógica
 
 La **lógica** es la rama de las matemáticas y la filosofía que estudia los **métodos y principios del razonamiento válido**. Su objetivo es determinar cuándo una conclusión se deduce correctamente de un conjunto de premisas.
 
 ### 📌 Conceptos Fundamentales
 
-### ✔️ **Enunciado o proposición**
+#### ✔️ Enunciado o Proposición  
 Un **enunciado** o **proposición** es una oración que puede ser **verdadera (V)** o **falsa (F)**, pero no ambas al mismo tiempo.
 
-Ejemplos:  
+**Ejemplos:**
 - "2 es un número par." → **V**  
 - "Quito es la capital de Perú." → **F**
 
-No son proposiciones:  
+**No son proposiciones:**
 - Preguntas: "¿Qué hora es?"  
 - Órdenes: "Cierra la puerta."  
-- Expresiones ambiguas: "Hace frío."  
+- Expresiones subjetivas: "Hace frío."
 
 ---
 
-# 2. PROPOSICIONES Y OPERADORES LÓGICOS
+## 2. 🔗 Proposiciones y Operadores Lógicos
 
 Los operadores lógicos permiten formar **proposiciones compuestas**.
 
-### ✔️ **1. Negación (¬p)**
-Invierte el valor de verdad.  
+---
+
+### ✔️ 2.1 Negación (¬p)
+
+Invierte el valor de verdad:  
 - Si p es verdadera → ¬p es falsa  
 - Si p es falsa → ¬p es verdadera
 
 ---
 
-### ✔️ **2. Conjunción (p ∧ q)**
-Es verdadera **solo si ambas** proposiciones son verdaderas.
+### ✔️ 2.2 Conjunción (p ∧ q)
+
+Es verdadera **solo cuando ambas proposiciones son verdaderas**.
 
 | p | q | p ∧ q |
 |---|---|-------|
@@ -45,8 +49,9 @@ Es verdadera **solo si ambas** proposiciones son verdaderas.
 
 ---
 
-### ✔️ **3. Disyunción (p ∨ q)**
-Es verdadera cuando **al menos una** proposición es verdadera.
+### ✔️ 2.3 Disyunción (p ∨ q)
+
+Es verdadera cuando **al menos una** de las proposiciones es verdadera.
 
 | p | q | p ∨ q |
 |---|---|-------|
@@ -57,7 +62,8 @@ Es verdadera cuando **al menos una** proposición es verdadera.
 
 ---
 
-### ✔️ **4. Implicación (p → q)**
+### ✔️ 2.4 Implicación (p → q)
+
 Solo es falsa cuando **p es verdadera** y **q es falsa**.
 
 | p | q | p → q |
@@ -69,7 +75,8 @@ Solo es falsa cuando **p es verdadera** y **q es falsa**.
 
 ---
 
-### ✔️ **5. Doble implicación (p ↔ q)**
+### ✔️ 2.5 Doble Implicación (p ↔ q)
+
 Es verdadera cuando **p y q tienen el mismo valor de verdad**.
 
 | p | q | p ↔ q |
@@ -81,14 +88,13 @@ Es verdadera cuando **p y q tienen el mismo valor de verdad**.
 
 ---
 
-# 3. TABLAS DE VERDAD
+## 3. 📊 Tablas de Verdad
 
 Las **tablas de verdad** muestran los valores posibles de una proposición compuesta evaluando todas las combinaciones de sus proposiciones simples.
 
 ---
 
-## ✔️ Ejemplo 1:  
-### Tabla de verdad de (p ∧ q) → ¬r
+### ✔️ Ejemplo 1: Tabla de verdad de (p ∧ q) → ¬r
 
 | p | q | r | p ∧ q | ¬r | (p ∧ q) → ¬r |
 |---|---|---|-------|-----|----------------|
@@ -103,8 +109,7 @@ Las **tablas de verdad** muestran los valores posibles de una proposición compu
 
 ---
 
-## ✔️ Ejemplo 2:
-### Tabla de verdad de ¬p ∨ (q → p)
+### ✔️ Ejemplo 2: Tabla de verdad de ¬p ∨ (q → p)
 
 | p | q | ¬p | q → p | ¬p ∨ (q → p) |
 |---|---|----|--------|----------------|
@@ -115,16 +120,17 @@ Las **tablas de verdad** muestran los valores posibles de una proposición compu
 
 ---
 
-# 📝 Conclusión de la Unidad 1
+## 📝 Conclusión de la Unidad
 
-En esta unidad se estudiaron los fundamentos del razonamiento lógico:  
+En esta unidad se estudiaron los fundamentos del razonamiento lógico:
+
 - Qué es una proposición  
 - Cómo operan los conectores lógicos  
-- Cómo se construyen y leen las tablas de verdad  
+- Cómo se construyen y analizan tablas de verdad  
 
-Estos conceptos son esenciales para temas más avanzados como **reglas de inferencia, equivalencias lógicas, álgebra booleana, grafos y algoritmos**.
+Estos conceptos son esenciales para temas posteriores como **reglas de inferencia, equivalencias lógicas, álgebra booleana, grafos y algoritmos**.
 
 ---
 
-> 📌 *Este documento forma parte del Portafolio de Matemáticas Discretas — Universidad Nacional de Loja*
+> 📘 *Parte del Portafolio Académico — Matemáticas Discretas — Universidad Nacional de Loja*
 
