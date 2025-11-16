@@ -167,16 +167,16 @@ A continuación tienes una **tabla editable**, organizada, estética y perfecta 
 
 ---
 
-# 📝 **Conclusión de la Unidad**
 
-En esta unidad se estudiaron los fundamentos del razonamiento lógico:
+## 💭 Reflexión de la Unidad 1
 
-* Qué es una proposición
-* Cómo funcionan los conectores lógicos
-* Cómo se construyen y analizan tablas de verdad
+Durante esta unidad comprendí que el estudio de la **lógica proposicional** es, ante todo, aprender a **razonar de manera estructurada y coherente**. Las **proposiciones** y los **conectores lógicos** permiten expresar ideas de forma precisa, evitando ambigüedades y facilitando el análisis formal de cualquier argumento.  
 
-Estos conocimientos son esenciales para avanzar a temas como:
-**reglas de inferencia**, **equivalencias lógicas**, **álgebra booleana**, **grafos** y **algoritmos**.
+Además, **elaborar tablas de verdad** se convirtió en una herramienta fundamental para verificar el comportamiento de las proposiciones compuestas y determinar si una expresión es **válida**, **contradictoria** o **contingente**.
+
+Siento que trabajé bien al identificar los valores de verdad de cada proposición y entender cómo se combinan mediante los diferentes conectores.  
+Sin embargo, aún debo mejorar mi **rapidez** y **seguridad** al construir tablas de verdad más extensas, especialmente cuando involucran varios operadores.
+
 
 ---
 
