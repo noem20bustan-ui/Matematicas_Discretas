@@ -69,7 +69,7 @@ Este portafolio recopila actividades, ejercicios, resúmenes y material desarrol
 
 | 🧩 Unidad | 📘 Tema             | 🔗 Acceso |
 |----------|---------------------|-----------|
-| **1**    | Lógica Matemática   | 👉 [Ver Unidad 1](unidad1.md) |
+| **1**    | Lógica Matemática   | 👉 [Ir a Unidad 1](Unidad1.md) |
 | **2**    | Álgebra de Boole    | ⏳ Próximamente |
 | **3**    | Grafos y Árboles    | ⏳ Próximamente |
 
