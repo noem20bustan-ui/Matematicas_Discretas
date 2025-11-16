@@ -151,11 +151,8 @@ Se definen como *“una aplicación veritativa que representa todas las posibles
 
 ---
 
-# 📂 📝 **Espacio para Tareas de la Unidad**
+# 📂   Tareas de la Unidad
 
-A continuación tienes una **tabla editable**, organizada, estética y perfecta para ir registrando tus deberes.
-
-### 📋 **Registro de Tareas**
 
 | Nº | Descripción del deber              | Enlace al archivo          | Estado        |
 | -- | ---------------------------------- | -------------------------- | ------------- |
